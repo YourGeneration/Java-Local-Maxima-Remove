@@ -11,8 +11,7 @@ public class LocalMaximaRemove {
     }
 
     public static int[] removeLocalMaxima(int[] array){
-
-        //put your code here
+        
         int[] copyOfArray = new int[array.length];
         int counter = 0; //counter of copyOfArray index 
 
@@ -48,6 +47,6 @@ public class LocalMaximaRemove {
 
         return withoutMaxima;
 
-        //throw new UnsupportedOperationException();
+        
     }
 }
